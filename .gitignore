@@ -1,0 +1,5 @@
+.venv/*
+*.wav
+video/*  
+*.srt
+*.DS_Store
