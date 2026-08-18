@@ -6,8 +6,8 @@ Herramienta de transcripción de audio y video a texto utilizando el modelo Whis
 
 - **Interfaz web** con Streamlit para subir y transcribir archivos de audio/video
 - **Soporte para archivos largos** mediante división automática en chunks de 10 minutos
-- **Aceleración por GPU** (CUDA) cuando está disponible
-- **Extracción de audio** desde archivos de video en múltiples formatos
+- **Aceleración por GPU**: Apple Silicon (MPS en Mac M1/M2/M3/M4) y NVIDIA CUDA
+- **Extracción de audio de alto rendimiento** con FFmpeg
 - **Unificación de audios** MP3 desde una carpeta
 
 ## Requisitos
