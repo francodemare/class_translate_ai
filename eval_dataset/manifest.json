@@ -1,0 +1,20 @@
+[
+  {
+    "audio_file": "sample_01_silence.wav",
+    "reference_file": "sample_01_silence.txt",
+    "type": "silence",
+    "description": "5s silencio puro para verificar tasa de alucinación"
+  },
+  {
+    "audio_file": "sample_02_noise.wav",
+    "reference_file": "sample_02_noise.txt",
+    "type": "noise",
+    "description": "5s ruido blanco tenue"
+  },
+  {
+    "audio_file": "sample_03_speech_es.wav",
+    "reference_file": "sample_03_speech_es.txt",
+    "type": "speech",
+    "description": "Muestra de voz en español"
+  }
+]

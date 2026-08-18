@@ -1,0 +1,103 @@
+{
+  "timestamp": "2026-08-18T09:40:19.285471",
+  "backend": "mlx",
+  "device": "Apple Silicon arm (MLX Metal)",
+  "os": "Darwin 25.6.0 (arm64)",
+  "model": "whisper-large-v3-turbo",
+  "parameters": {
+    "temperature": 0.0,
+    "beam_size": 1,
+    "language": "es",
+    "condition_on_previous_text": false
+  },
+  "runs_per_sample": 5,
+  "summary": {
+    "word_accuracy_percent": 100.0,
+    "wer_percent": 0.0,
+    "hallucination_rate_percent": 100.0,
+    "mean_rtf": 0.097,
+    "mean_speedup": 10.54,
+    "peak_memory_mb": 2347.0,
+    "total_speech_words_evaluated": 10,
+    "breakdown": {
+      "substitutions": 0,
+      "deletions": 0,
+      "insertions": 0,
+      "hits": 10
+    }
+  },
+  "samples": [
+    {
+      "sample_name": "sample_01_silence.wav",
+      "sample_type": "silence",
+      "duration_sec": 5.0,
+      "mean_latency_sec": 0.4328,
+      "std_latency_sec": 0.0074,
+      "rtf": 0.0866,
+      "speedup": 11.55,
+      "peak_memory_mb": 2347.0,
+      "reference_text_raw": "",
+      "hypothesis_text_raw": "Gracias por ver el video.",
+      "reference_normalized": "",
+      "hypothesis_normalized": "gracias por ver el video",
+      "wer_percent": 100.0,
+      "word_accuracy_percent": 0.0,
+      "cer_percent": 100.0,
+      "word_counts": {
+        "S": 0,
+        "D": 0,
+        "I": 5,
+        "H": 0,
+        "N": 0
+      }
+    },
+    {
+      "sample_name": "sample_02_noise.wav",
+      "sample_type": "noise",
+      "duration_sec": 5.0,
+      "mean_latency_sec": 0.4313,
+      "std_latency_sec": 0.0029,
+      "rtf": 0.0863,
+      "speedup": 11.59,
+      "peak_memory_mb": 2347.0,
+      "reference_text_raw": "",
+      "hypothesis_text_raw": "Gracias.",
+      "reference_normalized": "",
+      "hypothesis_normalized": "gracias",
+      "wer_percent": 100.0,
+      "word_accuracy_percent": 0.0,
+      "cer_percent": 100.0,
+      "word_counts": {
+        "S": 0,
+        "D": 0,
+        "I": 1,
+        "H": 0,
+        "N": 0
+      }
+    },
+    {
+      "sample_name": "sample_03_speech_es.wav",
+      "sample_type": "speech",
+      "duration_sec": 3.93,
+      "mean_latency_sec": 0.4646,
+      "std_latency_sec": 0.004,
+      "rtf": 0.1181,
+      "speedup": 8.46,
+      "peak_memory_mb": 2346.3,
+      "reference_text_raw": "Bienvenidos a la clase de inteligencia artificial y aprendizaje automatico.",
+      "hypothesis_text_raw": "Bienvenidos a la clase de Inteligencia Artificial y Aprendizaje Automático.",
+      "reference_normalized": "bienvenidos a la clase de inteligencia artificial y aprendizaje automatico",
+      "hypothesis_normalized": "bienvenidos a la clase de inteligencia artificial y aprendizaje automatico",
+      "wer_percent": 0.0,
+      "word_accuracy_percent": 100.0,
+      "cer_percent": 0.0,
+      "word_counts": {
+        "S": 0,
+        "D": 0,
+        "I": 0,
+        "H": 10,
+        "N": 10
+      }
+    }
+  ]
+}

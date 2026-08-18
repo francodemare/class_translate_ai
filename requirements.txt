@@ -1,0 +1,27 @@
+# ==============================================================================
+# Dependencias Principales del Proyecto (Class Translate AI)
+# ==============================================================================
+
+# Dependencias Core
+openai-whisper>=20231117
+torch>=2.0.0
+streamlit>=1.30.0
+pydub>=0.25.1
+numpy>=1.24.0
+tqdm>=4.65.0
+
+# Dependencias de Evaluación y Benchmarking (evals_whisper.py)
+jiwer>=3.0.0
+soundfile>=0.12.0
+scipy>=1.10.0
+
+# ==============================================================================
+# Dependencias Específicas por Plataforma
+# ==============================================================================
+
+# Para macOS (Apple Silicon M1/M2/M3/M4):
+# pip install mlx mlx-whisper
+
+# Para Windows 11 (NVIDIA CUDA):
+# pip install faster-whisper pynvml
+# Nota Windows: Asegúrate de tener cublas64_12.dll y cudnn64_9.dll en el PATH
